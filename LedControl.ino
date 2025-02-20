@@ -7,6 +7,8 @@
 
 //!! For some reason this was just not working, we tried digitalWrite with highs and lows, then i switched to analogWrite logic and it is not displaying any colors at all
 
+//Initially I was able to have red color work, but it would only display the red. Then randomly it decided to output a spectrum of colors vs 1, then now it is just not showing any colors 
+
 
 //declaring the variables for the button and pin color controlling
 const int redButton = 4, greenButton = 3, blueButton = 2;
